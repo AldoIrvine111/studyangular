@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 
-
-
 @Component({
   selector: 'pm-root',
   template: `
   <div>
     <h1>{{pageTitle}}</h1>
-      <div>My first Component</div>
-      <div>Pacar ku adalah {{pacar}}</div>
+      <pm-product></pm-product>
   </div>`
 })
 
